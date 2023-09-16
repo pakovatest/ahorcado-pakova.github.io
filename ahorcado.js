@@ -18,7 +18,7 @@ var palabras = [["Api", "Iterfasz entre usuario y servidor"],
  ["pastel", "De la pastelería"],
   ["colegio", "Lugar para estudiar"],
    ["carrera", "Competición"], 
-  ["pitbull", "Tarro"]];
+  ["pitbull", "Carro"]];
 
 var palabra = "";
 
