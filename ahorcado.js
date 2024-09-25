@@ -1,24 +1,24 @@
 // ### VARIABLES ###
 
 
-var palabras = [["Api", "Iterfasz entre usuario y servidor"],
- ["Desarollo", "Diseñador de paginas mobili"],
- ["github", "Herramienta para crear una branch"],
-  ["Facebook", "Red Social mas conocida"], 
- ["html", "Esqueleto de una pagina web"], 
- ["Algoritmos", "Series de pasos que se ejecutan para resolver un tipo de problema"], 
- ["petanca", "Un juego"], ["higuera", "Un árbol"],
-  ["Notepac", "Editor de texto y código libri"], 
- ["Servidor", "Un programa informático que procesa una aplicación  "],
-  ["jirafa", "Un animal"], 
- ["luxemburgo", "Un país"], ["uruguay", "Un país"], 
- ["ilustracion", "Representación gráfica"],
-  ["excursion", "Actividad en la naturaleza"], 
- ["empanadilla", "De la panadería"], 
- ["pastel", "De la pastelería"],
-  ["colegio", "Lugar para estudiar"],
-   ["carrera", "Competición"], 
-  ["pitbull", "Insectos"]];
+var palabras = [
+  ["Bug", "Error o defecto en el sistema"],
+  ["Script", "Código que automatiza tareas"],
+  ["git", "Sistema de control de versiones"],
+  ["Sprint", "Ciclo corto de desarrollo ágil"], 
+  ["html", "Esqueleto de una pagina web"], 
+  ["Jira", "Gestor de proyectos e incidencias"], 
+  ["Notepad", "Editor de texto y código libre"],
+  ["Smoke", "Prueba inicial para asegurar que las funciones"],
+  ["Automatización", "Uso de scripts para ejecutar pruebas automáticamente"],
+  ["Testing", "Proceso para verificar si un software cumple con los requisitos"],
+  ["Manual", "Pruebas realizadas sin el uso de herramientas automáticas"],
+  ["Regresión", "Verificación de que un cambio no afecte negativamente funciones existentes."],
+  ["Repositorio", "Lugar donde se almacenan versiones de código"],
+  ["Unitario", "Prueba de una sola parte del código, como una función o método"],
+  ["Funcional", "Tipo de prueba que evalúa si el sistema cumple con sus funciones"],
+  ["Integración", "Probar cómo interactúan los módulos entre sí"],
+]
 
 var palabra = "";
 
@@ -65,7 +65,7 @@ function generaABC (a,z) {
     letra = String.fromCharCode(i).toUpperCase();
     document.getElementById("abcdario").innerHTML += "<button value='" + letra + "' onclick='intento(\"" + letra + "\")' class='letra' id='"+letra+"'>" + letra + "</button>";
     if(i==110) {
-      document.getElementById("abcdario").innerHTML += "<button value='�' onclick='intento(\"�\")' class='letra' id='"+letra+"'>�</button>";
+      document.getElementById("abcdario").innerHTML += "<button value='ñ' onclick='intento(\"ñ\")' class='letra' id='"+letra+"'>ñ</button>";
     }
   }
 }
