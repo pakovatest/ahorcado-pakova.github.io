@@ -7,8 +7,8 @@ var palabras = [["Api", "Iterfasz entre usuario y servidor"],
   ["Facebook", "Red Social mas conocida"], 
  ["html", "Esqueleto de una pagina web"], 
  ["Algoritmos", "Series de pasos que se ejecutan para resolver un tipo de problema"], 
- ["petanca", "Un juego"], ["higuera", "Un árbol"],
-  ["Notepac", "Editor de texto y código libri"], 
+ ["chin chon", "Un juego de cartas"], ["higuera", "Un árbol"],
+  ["Notepac", "Editor de texto y código libre"], 
  ["Servidor", "Un programa informático que procesa una aplicación  "],
   ["jirafa", "Un animal"], 
  ["luxemburgo", "Un país"], ["uruguay", "Un país"], 
@@ -16,9 +16,11 @@ var palabras = [["Api", "Iterfasz entre usuario y servidor"],
   ["excursion", "Actividad en la naturaleza"], 
  ["empanadilla", "De la panadería"], 
  ["pastel", "De la pastelería"],
-  ["colegio", "Lugar para estudiar"],
+  ["escuela", "Lugar para estudiar"],
    ["carrera", "Competición"], 
-  ["pitbull", "Insectos"]];
+  ["pitbull", "Raza de perro"],
+  ["testing", "Lo que aprendemos en Pakova"],
+  ["jazmin", "Flor aromática"]];
 
 var palabra = "";
 
@@ -78,12 +80,12 @@ function intento(letra) {
       if(palabra[i]==letra) oculta[i] = letra;
     }
     hueco.innerHTML = oculta.join("");
-    document.getElementById("acierto").innerHTML = "Palabra Correcta!";
+    document.getElementById("acierto").innerHTML = "Letra Correcta!";
     document.getElementById("acierto").className += "acierto verde";
   }else{
     cont--;
     document.getElementById("intentos").innerHTML = cont;
-    document.getElementById("acierto").innerHTML = "Palabra Incorrecta!";
+    document.getElementById("acierto").innerHTML = "Letra Incorrecta!";
     document.getElementById("acierto").className += "acierto rojo";
     document.getElementById("image"+cont).className += "fade-in";
   }
