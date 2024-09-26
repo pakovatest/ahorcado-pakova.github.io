@@ -1,7 +1,7 @@
 
 body {
 
-  background-image: url(kitty.jpg);
+  background-image: url(kitty2.avif);
   background-position: left;
 
 }
@@ -21,7 +21,7 @@ h1.titulo {
 }
 h1#msg-final {
   text-align: center;
-  color: crimson;
+  color: rgb(20, 180, 220);
   transition: all .5s ease;
   transform: scale(0);
   min-height: 50px;
@@ -29,8 +29,8 @@ h1#msg-final {
   margin-left:-200px;
 }
 a {
-  -webkit-text-stroke: 2px #0016b0;
-  color: #1883ba; 
+  -webkit-text-stroke: 2px #00011100;
+  color: #1dba18; 
 }
 .zoom-in {
   transform: scale(1) !important;
@@ -45,7 +45,7 @@ a {
   animation: zoomInOut 1s ease;
 }
 .rojo {
-  color: red;
+  color: rgb(0, 255, 200);
 }
 .verde {
   color: green;
@@ -59,7 +59,7 @@ a {
 h2.palabra {
   margin: 0 auto 25px auto;
   text-align: center;
-  color: royalblue;
+  color: rgb(65, 225, 105);
   text-transform: uppercase;
   letter-spacing: 6px;
 }

@@ -1,14 +1,14 @@
 // ### VARIABLES ###
 
 
-var palabras = [["Api", "Iterfasz entre usuario y servidor"],
- ["Desarollo", "Diseñador de paginaHerramienta paras mobili"],
-R["COMPUTADORA", " ESCRITORIO"],
-  ["PEINE", "CABELLO, ALISAR "], 
- ["PINTAR", "PINTURA"], 
- ["Algoritmos", "Series de pasos que se ejecutan para resolver un tipo de problema"], 
- ["petanca", "Un juego"], ["higuera", "Un árbol"],
-  ["Notepac", "Editor de texto y código libri"], 
+var palabras = [["hello kity", "dibujo animado,animal, caricatura"],
+ ["labial", "maquillaje, pintura para labios"],
+R["computadora", "escritorio"],
+  ["peine", "se usa para el cabello, alisar "], 
+  ["pintura", "pintar, color"], 
+ ["teclado", "tecla, escritorio ,escribir"], 
+ ["escalera", "subir"], ["bajar"]
+  ["", "Editor de texto y código libri"], 
  ["Servidor", "Un programa informático que procesa una aplicación  "],
   ["jirafa", "Un animal"], 
  ["argentina", "Un país"], ["argentina", "Un país"], 
