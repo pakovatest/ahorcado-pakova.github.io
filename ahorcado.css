@@ -1,7 +1,7 @@
 
 body {
 
-  background-image: url("imagen1.jpg");
+  background-image: url("imagen 3.jpg");
   background-position: left;
 
 }
@@ -62,6 +62,7 @@ h2.palabra {
   color: royalblue;
   text-transform: uppercase;
   letter-spacing: 6px;
+  
 }
 .flex-row {
   display: flex;
