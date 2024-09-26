@@ -65,9 +65,10 @@ h2.palabra {
 }
 .flex-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
    margin: 7px auto;
+   align-items: center;
 }
 .no-wrap {
   flex-wrap: nowrap !important;
