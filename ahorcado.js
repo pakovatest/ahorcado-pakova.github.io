@@ -94,9 +94,9 @@ function intento(letra) {
 }
 
 // Obtener pista
-function pista() {
-  document.getElementById("hueco-pista").innerHTML = palabras[rand][1];
-}
+// function pista() {
+//   document.getElementById("hueco-pista").innerHTML = palabras[rand][1];
+// }
 
 // Comprueba si ha finalizado document.getElementById("msg-final").innerHTML = palabras[rand][0].toUpperCase();
 function compruebaFin() {
@@ -137,3 +137,22 @@ function inicio() {
 }
 
 window.onload = inicio();
+
+const toastify = document.getElementById("pista")
+toastify.addEventListener("click", () =>{
+  Toastify({
+    text: palabras[rand][1],
+    duration: 3000,
+    destination: "https://github.com/apvarun/toastify-js",
+    newWindow: true,
+    close: true,
+    gravity: "top", // `top` or `bottom`
+    position: "left", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+      background: "linear-gradient(to right, #00b09b, #96c93d)",
+    },
+    onClick: function(){} // Callback after click
+  }).showToast();
+})
+
