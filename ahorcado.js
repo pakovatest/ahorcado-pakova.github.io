@@ -1,24 +1,24 @@
 // ### VARIABLES ###
 
 
-var palabras = [["Api", "Iterfasz entre usuario y servidor"],
- ["Desarollo", "Diseñador de paginas mobili"],
- ["github", "Herramienta para crear una branch"],
-  ["Facebook", "Red Social mas conocida"], 
- ["html", "Esqueleto de una pagina web"], 
- ["Algoritmos", "Series de pasos que se ejecutan para resolver un tipo de problema"], 
- ["petanca", "Un juego"], ["higuera", "Un árbol"],
-  ["Notepac", "Editor de texto y código libri"], 
+var palabras = [["hello kity", "dibujo animado,animal, caricatura"],
+ ["labial", "maquillaje, pintura para labios"],
+R["computadora", "escritorio"],
+  ["peine", "se usa para el cabello, alisar "], 
+  ["pintura", "pintar, color"], 
+ ["teclado", "tecla, escritorio ,escribir"], 
+ ["escalera", "subir"], ["bajar"]
+  ["", "Editor de texto y código libri"], 
  ["Servidor", "Un programa informático que procesa una aplicación  "],
   ["jirafa", "Un animal"], 
- ["luxemburgo", "Un país"], ["uruguay", "Un país"], 
+ ["argentina", "Un país"], ["argentina", "Un país"], 
  ["ilustracion", "Representación gráfica"],
   ["excursion", "Actividad en la naturaleza"], 
- ["empanadilla", "De la panadería"], 
- ["pastel", "De la pastelería"],
-  ["colegio", "Lugar para estudiar"],
+ ["libro", "escribir,leer"], 
+ ["tierra", "planeta, habitat de los seres humanos"],
+  ["plaza", "Lugar para jugar al aire libre"],
    ["carrera", "Competición"], 
-  ["pitbull", "Insectos"]];
+  ["pez", "animal que vive en el agua, rio "]];
 
 var palabra = "";
 
