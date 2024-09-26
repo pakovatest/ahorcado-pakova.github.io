@@ -1,7 +1,7 @@
 
 body {
 
-  background-image: url("imagen1.jpg");
+  background-image: url("imagen3.jpg");
   background-position: left;
 
 }
@@ -16,12 +16,12 @@ h1.titulo {
   margin: 50px auto 80px auto;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-  -webkit-text-stroke: 2px #0016b0;
-  color: #1883ba; 
+  -webkit-text-stroke: 2px #b00096;
+  color: #ff88c6; 
 }
 h1#msg-final {
   text-align: center;
-  color: crimson;
+  color: rgb(14, 207, 255);
   transition: all .5s ease;
   transform: scale(0);
   min-height: 50px;
@@ -29,8 +29,8 @@ h1#msg-final {
   margin-left:-200px;
 }
 a {
-  -webkit-text-stroke: 2px #0016b0;
-  color: #1883ba; 
+  -webkit-text-stroke: 1px #f22f97;
+  color: #fe91be; 
 }
 .zoom-in {
   transform: scale(1) !important;
@@ -45,7 +45,7 @@ a {
   animation: zoomInOut 1s ease;
 }
 .rojo {
-  color: red;
+  color: rgb(255, 188, 3);
 }
 .verde {
   color: green;
@@ -59,7 +59,7 @@ a {
 h2.palabra {
   margin: 0 auto 25px auto;
   text-align: center;
-  color: royalblue;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 6px;
 }
@@ -82,7 +82,7 @@ h2.palabra {
   margin: auto;
 }
 h3 span {
-   color: orangered;
+   color: rgb(19, 211, 236);
 }
 .letra:disabled {
   color:rgba(255, 0, 0, 0.5);
