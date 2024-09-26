@@ -2,23 +2,23 @@
 
 
 var palabras = [["Api", "Iterfasz entre usuario y servidor"],
- ["Desarollo", "Diseñador de paginas mobili"],
+ ["Desarollador", "Diseñador de paginas web"],
  ["github", "Herramienta para crear una branch"],
   ["Facebook", "Red Social mas conocida"], 
  ["html", "Esqueleto de una pagina web"], 
  ["Algoritmos", "Series de pasos que se ejecutan para resolver un tipo de problema"], 
- ["petanca", "Un juego"], ["higuera", "Un árbol"],
-  ["Notepac", "Editor de texto y código libri"], 
+ ["Lumbricina", "Un juego de nokia 1100"], ["Roble", "Un árbol"],
+  ["Pyhton", "Lenguaje de programacion"], 
  ["Servidor", "Un programa informático que procesa una aplicación  "],
-  ["jirafa", "Un animal"], 
- ["luxemburgo", "Un país"], ["uruguay", "Un país"], 
+  ["Elefante", "Un animal"], 
+ ["Francia", "Un país"], ["uruguay", "Un país"], 
  ["ilustracion", "Representación gráfica"],
-  ["excursion", "Actividad en la naturaleza"], 
- ["empanadilla", "De la panadería"], 
+  ["treeking", "Actividad en la naturaleza"], 
+ ["bizcocho", "De la panadería"], 
  ["pastel", "De la pastelería"],
-  ["colegio", "Lugar para estudiar"],
+  ["escuela", "Lugar para estudiar"],
    ["carrera", "Competición"], 
-  ["pitbull", "Insectos"]];
+  ["pitbull", "Raza de perro"]];
 
 var palabra = "";
 

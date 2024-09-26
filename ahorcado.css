@@ -1,16 +1,23 @@
 
 body {
 
-  background-image: url("imagen1.jpg");
-  background-position: left;
-
+  background-size: cover ;
+  background-image: url("pexels.jpg");
 }
-* {
-  box-sizing: border-box;
-}
-.main-container {
-  max-width: 800px;
+body {
   margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Arial', sans-serif; 
+  color: #33475b;    
+      }
+
+img{
+  padding: 10px; 
+}
+
+img{
+  padding: 10px; 
 }
 h1.titulo {
   margin: 50px auto 80px auto;
