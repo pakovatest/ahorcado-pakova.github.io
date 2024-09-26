@@ -65,7 +65,7 @@ function generaABC (a,z) {
     letra = String.fromCharCode(i).toUpperCase();
     document.getElementById("abcdario").innerHTML += "<button value='" + letra + "' onclick='intento(\"" + letra + "\")' class='letra' id='"+letra+"'>" + letra + "</button>";
     if(i==110) {
-      document.getElementById("abcdario").innerHTML += "<button value='ñ' onclick='intento(\"ñ\")' class='letra' id='"+letra+"'>ñ</button>";
+      document.getElementById("abcdario").innerHTML += "<button value='Ñ' onclick='intento(\"Ñ\")' class='letra' id='"+letra+"'>Ñ</button>";
     }
   }
 }
