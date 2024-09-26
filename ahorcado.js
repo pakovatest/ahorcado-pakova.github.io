@@ -1,16 +1,16 @@
 // ### VARIABLES ###
 
 
-var palabras = [["Api", "Iterfasz entre usuario y servidor"],
- ["Desarollo", "Diseñador de paginas mobili"],
+var palabras = [["Api", "Interfaz entre usuario y servidor"],
+ ["Desarollo", "Diseño de aplicaciones"],
  ["github", "Herramienta para crear una branch"],
   ["Facebook", "Red Social mas conocida"], 
  ["html", "Esqueleto de una pagina web"], 
  ["Algoritmos", "Series de pasos que se ejecutan para resolver un tipo de problema"], 
  ["petanca", "Un juego"], ["higuera", "Un árbol"],
-  ["Notepac", "Editor de texto y código libri"], 
+  ["Notepad", "Editor de texto y código libri"], 
  ["Servidor", "Un programa informático que procesa una aplicación  "],
-  ["jirafa", "Un animal"], 
+  ["jirafa", "Un animal de cuello largo"], 
  ["luxemburgo", "Un país"], ["uruguay", "Un país"], 
  ["ilustracion", "Representación gráfica"],
   ["excursion", "Actividad en la naturaleza"], 
@@ -18,7 +18,7 @@ var palabras = [["Api", "Iterfasz entre usuario y servidor"],
  ["pastel", "De la pastelería"],
   ["colegio", "Lugar para estudiar"],
    ["carrera", "Competición"], 
-  ["pitbull", "Insectos"]];
+  ["bugs", "Insectos"]];
 
 var palabra = "";
 
