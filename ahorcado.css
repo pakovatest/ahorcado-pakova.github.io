@@ -1,8 +1,8 @@
 
 body {
 
-  background-image: url("imagen1.jpg");
-  background-position: left;
+  background-image: url("imagen paisaje.jpg");
+  background-position: center;
 
 }
 * {
@@ -98,7 +98,7 @@ picture img {
  /* left: -205px;*/
   height: 225px;
 }
-#image6{
+#orca{
   width: 250px;
   height: 250px;
 }
