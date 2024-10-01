@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <title>Ahorcado</title>
     <link rel="stylesheet" href="ahorcado.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
       <div class="main-container">
@@ -27,19 +31,35 @@
           <div class="col">
             <h3><a>Intentos restantes:</a> <span id="intentos">6</span></h3>
           </div>
-          <div class="col">
-            <button onclick="inicio()" id="reset">Elegir otra palabra</button>
-            <button onclick="pista()" id="pista">Dame una pista!</button>
-            <div id="hueco-pista"></div>
           </div>
-          </div>
-         
+
+          <div class="flex-row">
+            <div class="col">
+              <button onclick="inicio()" id="reset">Elegir otra palabra</button>
+              <button onclick="pista()" id="pista">Dame una pista!</button>
+              <div id="hueco-pista"></div>
+            </div>
+            </div>
         
         <div class="flex-row">
           <div class="col">
             <div class="flex-row" id="abcdario">
             </div>
       </div>
+    </div>
+    <footer>
+      <div class="flex-row" id="footer">
+        <div class="col">
+      <ul>
+        <li><a href="https://www.linkedin.com/company/pakova-testing" target="_blank"><img src="img/linkedin.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/pakovatesting/" target="_blank"><img src="img/instagram.png" alt=""></a></li>
+        <li><a href="https://github.com/pakovatest" target="_blank"><img src="img/github.png" alt=""></a></li>
+      </ul>
+    </div>
+    </div>
+    </footer>
       <script src="ahorcado.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
   </body>
 </html>
