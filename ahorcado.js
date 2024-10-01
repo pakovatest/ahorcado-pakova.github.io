@@ -10,14 +10,14 @@ var palabras = [
   ["Jira", "Gestor de proyectos e incidencias"], 
   ["Notepad", "Editor de texto y código libre"],
   ["Smoke", "Prueba inicial para asegurar que las funciones"],
-  ["Automatización", "Uso de scripts para ejecutar pruebas automáticamente"],
+  ["Automatizacion", "Uso de scripts para ejecutar pruebas automáticamente"],
   ["Testing", "Proceso para verificar si un software cumple con los requisitos"],
   ["Manual", "Pruebas realizadas sin el uso de herramientas automáticas"],
-  ["Regresión", "Verificación de que un cambio no afecte negativamente funciones existentes."],
+  ["Regresion", "Verificación de que un cambio no afecte negativamente funciones existentes."],
   ["Repositorio", "Lugar donde se almacenan versiones de código"],
   ["Unitario", "Prueba de una sola parte del código, como una función o método"],
   ["Funcional", "Tipo de prueba que evalúa si el sistema cumple con sus funciones"],
-  ["Integración", "Probar cómo interactúan los módulos entre sí"],
+  ["Integracion", "Probar cómo interactúan los módulos entre sí"],
 ]
 
 var palabra = "";
@@ -142,7 +142,7 @@ const toastify = document.getElementById("pista")
 toastify.addEventListener("click", () =>{
   Toastify({
     text: palabras[rand][1],
-    duration: 3000,
+    duration: 4000,
     destination: "https://github.com/apvarun/toastify-js",
     newWindow: true,
     close: true,
