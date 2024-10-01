@@ -15,12 +15,18 @@ body {
   margin: auto;
 }
 h1.titulo {
-  margin: 20px auto 80px auto;
+
   font-size: 100px;
   text-align: center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   -webkit-text-stroke: 2px #f2f2f5;
   color: #0d151a; 
+  
+}
+
+h1.titulo:hover{
+  
+color: #1883ba;
 }
 h1#msg-final {
   text-align: center;
