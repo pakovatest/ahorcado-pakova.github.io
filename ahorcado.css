@@ -1,9 +1,9 @@
 
 body {
 
-  background-image: url("imagen1.jpg");
-  background-position: left;
-
+  background-image: url("imag.jpg!d");
+  background-position: center;
+  font-family: "Patrick Hand", cursive;
 }
 * {
   box-sizing: border-box;
@@ -15,9 +15,9 @@ body {
 h1.titulo {
   margin: 50px auto 80px auto;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-  -webkit-text-stroke: 2px #0016b0;
-  color: #1883ba; 
+  font-size: 75px;
+  -webkit-text-stroke: 2px #85f331;
+  color: #091114; 
 }
 h1#msg-final {
   text-align: center;
