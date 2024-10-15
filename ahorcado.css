@@ -14,10 +14,10 @@ body {
 }
 h1.titulo {
   margin: 50px auto 80px auto;
-  text-align: center;
+  text-align: (sans-serif);
   font-size: 75px;
-  -webkit-text-stroke: 2px #85f331;
-  color: #091114; 
+  
+  color: greenyellow; 
 }
 h1#msg-final {
   text-align: center;
@@ -29,8 +29,9 @@ h1#msg-final {
   margin-left:-200px;
 }
 a {
-  -webkit-text-stroke: 2px #0016b0;
-  color: #1883ba; 
+  -webkit-text-stroke: 1px red;
+  color: #ba183b;
+  font-size: 50px; 
 }
 .zoom-in {
   transform: scale(1) !important;
@@ -132,12 +133,12 @@ div#hueco-pista {
   text-decoration: none;
     font-weight: 600;
     font-size: 20px;
-    -webkit-text-stroke: 2px #0016b0;
-    color: #1883ba; 
-    font-size: 25px;
+    
+    color: red; 
+    font-size: 20px;
 }
 h3{
-  font-size: 28px;
+  font-size: 50px;
 }
 
 
